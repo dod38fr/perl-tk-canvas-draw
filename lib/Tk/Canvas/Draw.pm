@@ -7,6 +7,12 @@ our $VERSION = '0.05';
 
 Tk::Canvas::Draw - Simplifies drawing with a mouse in a perl/Tk Canvas
 
+=head1 SYNOPSIS
+
+use Tk::Canvas::Draw;
+
+Tk::Canvas::Draw->new($canvas, \&final_callback, $h_args);
+
 =head1 DESCRIPTION
 
 This module simplifies the drawing of perl/Tk shapes in a Canvas, using
@@ -21,13 +27,11 @@ registered callback is invoked to handle any necessary final processing.
 
 Version 0.05
 
-=head1 SYNOPSIS
+=head1 CONSTRUCTOR
 
-use Tk::Canvas::Draw;
+=head2 new
 
-Tk::Canvas::Draw->new($canvas, \&final_callback, $h_args);
-
-=head1 REQUIRED PARAMETERS
+Required parameters:
 
 =over 4
 
@@ -131,7 +135,7 @@ $a_ids -- A reference to an array containing the ID(s) of the drawn shape
 
 =head1 METHODS
 
-restart($obj, $h_args)
+=head2 restart($obj, $h_args)
 
 =over 4
 
@@ -163,7 +167,7 @@ section above)
 
 =back
 
-transform($obj, $a_points, $xoff, $yoff, $canvas)
+=head2 transform($obj, $a_points, $xoff, $yoff, $canvas)
 
 =over 4
 
