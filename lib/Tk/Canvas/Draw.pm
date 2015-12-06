@@ -1,7 +1,7 @@
 
 package Tk::Canvas::Draw;
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 =head1 NAME
 
@@ -25,7 +25,7 @@ registered callback is invoked to handle any necessary final processing.
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =head1 CONSTRUCTOR
 

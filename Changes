@@ -19,3 +19,6 @@ Revision history for Tk-Canvas-Draw
         Moved pod-coverate tests in xt/ (ddumont)
         Fixed some pod issues (ddumont)
 
+0.07    December 6th 2015
+        added missing Tk dependency (RT 110109 ddumont)
+
